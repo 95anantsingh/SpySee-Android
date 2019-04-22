@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9575cd</color>
+    <color name="colorPrimaryDark">#4a148c</color>
+    <color name="colorNavigationBar">#000000</color>
+    <color name="colorStatusBar">#424242</color>
+    !#303f9f
+    <color name="colorAccent">#7986cb</color>
+    <color name="black_overlay">#66000000</color>
+
+
+
+
+    <color name="joystick_base_color">#c0cfd8dc</color>
+    <color name="pointer_color">#d0ff3d00</color>
+    <color name="seekbar_fill_color">#d0c51162</color>
+    <color name="seekbar_empty_color">#c0cfd8dc</color>
+    <color name="power_seekbar_fill_color">#d0ff3d00</color>
+    <color name="power_seekbar_empty_color">#c0cfd8dc</color>
+    <color name="Rseekbar_thumb_color">#c0000000</color>
+</resources>

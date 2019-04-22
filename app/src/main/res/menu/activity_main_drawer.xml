@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/control_modesNavText" >
+        <menu>
+            <item
+                android:id="@+id/nav_basic_mode"
+                android:icon="@drawable/ic_landscape_mode"
+                android:title="@string/basicNavText" />
+            <item
+                android:id="@+id/nav_landscape_mode"
+                android:icon="@drawable/ic_landscape_mode"
+                android:title="@string/landscapeNavText" />
+        </menu>
+    </item>
+    <item android:title="@string/communicateNavText">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="@string/aboutNavText" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/shareNavText" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_contact_us"
+                android:title="@string/contact_usNavText" />
+        </menu>
+    </item>
+
+</menu>

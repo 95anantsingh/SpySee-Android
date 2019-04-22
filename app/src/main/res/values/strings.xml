@@ -1,0 +1,70 @@
+<resources>
+
+    <string name="app_name">SpySee</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="basicNavText">Basic</string>
+    <string name="landscapeNavText">Landscape</string>
+    <string name="communicateNavText">Communicate</string>
+    <string name="aboutNavText">About</string>
+    <string name="shareNavText">Share</string>
+    <string name="contact_usNavText">Contact Us</string>
+    <string name="control_modesNavText">Control Modes</string>
+    <string name="title_activity_vid">VidActivity</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="person_count_textView">0</string>
+    <string name="snakBarText">Please wait…</string>
+
+    <!-- SpySee Settings-->
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_category_wifi">Wifi</string>
+
+    <string name="pref_title_wifi_ssid">Wifi SSID</string>
+    <string name="pref_default_wifi_ssid">SpySee</string>
+    <string name="pref_hint_wifi_ssid">SpySee</string>
+
+    <string name="pref_title_wifi_password">Wifi password</string>
+    <string name="pref_default_wifi_password">10091996</string>
+    <string name="pref_hint_wifi_password">Password</string>
+
+
+    <string name="pref_category_video">Video Sync</string>
+
+    <string name="pref_title_ip">IP Address</string>
+    <string name="pref_default_ip">192.10.9.97</string>
+    <string name="pref_hint_ip">192.10.9.96</string>
+
+    <string name="pref_title_video_port">Video stream Port</string>
+    <string name="pref_default_video_port">1108</string>
+    <string name="pref_hint_video_port">1108</string>
+
+    <string name="pref_title_video_address">Video address</string>
+    <string name="pref_default_video_address">live.mjpg</string>
+    <string name="pref_hint_video_address">live.mjpg</string>
+
+
+    <string name="pref_category_ctrlports">Control Ports</string>
+
+    <string name="pref_title_motionctrl_port">Motion Port</string>
+    <string name="pref_default_motionctrl_port">2110</string>
+    <string name="pref_hint_motionctrl_port">2110</string>
+
+    <string name="pref_title_camctrl_port">Camera Port</string>
+    <string name="pref_default_camctrl_port">2111</string>
+    <string name="pref_hint_camctrl_port">2111</string>
+
+    <string name="pref_title_special_port">Special Port</string>
+    <string name="pref_default_special_port">2222</string>
+    <string name="pref_hint_special_port">2222</string>
+
+    <string name="pref_title_emergency_port">Emergency Port</string>
+    <string name="pref_default_emergency_port">2223</string>
+    <string name="pref_hint_emergency_port">2223</string>
+
+</resources>

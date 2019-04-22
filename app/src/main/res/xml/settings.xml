@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_category_wifi">
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_wifi_ssid"
+            android:hint="@string/pref_hint_wifi_ssid"
+            android:inputType="text"
+            android:key="wifi_ssid"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_default_wifi_ssid"
+            android:title="@string/pref_title_wifi_ssid" />
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_wifi_password"
+            android:hint="@string/pref_hint_wifi_password"
+            android:inputType="textPassword"
+            android:key="wifi_password"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_hint_wifi_password"
+            android:title="@string/pref_title_wifi_password" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_video">
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_ip"
+            android:hint="@string/pref_hint_ip"
+            android:inputType="text"
+            android:key="ip_address"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_default_ip"
+            android:title="@string/pref_title_ip" />
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_video_port"
+            android:hint="@string/pref_hint_video_port"
+            android:inputType="text"
+            android:key="video_port"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_default_video_port"
+            android:title="@string/pref_title_video_port" />
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_video_address"
+            android:hint="@string/pref_hint_video_address"
+            android:inputType="text"
+            android:key="video_address"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_default_video_address"
+            android:title="@string/pref_title_video_address" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_ctrlports">
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_motionctrl_port"
+            android:hint="@string/pref_hint_motionctrl_port"
+            android:inputType="text"
+            android:key="motionCtrl_port"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_default_motionctrl_port"
+            android:title="@string/pref_title_motionctrl_port" />
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_camctrl_port"
+            android:hint="@string/pref_hint_camctrl_port"
+            android:inputType="text"
+            android:key="camCtrl_port"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_default_camctrl_port"
+            android:title="@string/pref_title_camctrl_port" />
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_special_port"
+            android:hint="@string/pref_hint_special_port"
+            android:inputType="text"
+            android:key="specialCtrl_port"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_default_special_port"
+            android:title="@string/pref_title_special_port" />
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_emergency_port"
+            android:hint="@string/pref_hint_emergency_port"
+            android:inputType="text"
+            android:key="emergencyCtrl_port"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_default_emergency_port"
+            android:title="@string/pref_title_emergency_port" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
